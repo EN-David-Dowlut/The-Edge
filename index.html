@@ -10,6 +10,9 @@
 <meta property="og:title" content="The Edge — by EN">
 <meta property="og:description" content="A sovereign journey to the precipice of perception — where comfort dissolves and a new art of living begins. Physical copies available directly from the writer. eBook on Amazon Kindle, free for Kindle Unlimited subscribers.">
 <meta property="og:image" content="https://raw.githubusercontent.com/EN-David-Dowlut/The-Edge/refs/heads/main/Screenshot_20260615_123822_Gallery.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
 <meta property="og:image:width" content="928">
 <meta property="og:image:height" content="928">
 <meta property="og:url" content="https://en-david-dowlut.github.io/The-Edge/">
@@ -18,7 +21,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Edge — by EN">
 <meta name="twitter:description" content="A sovereign journey to the precipice of perception — where comfort dissolves and a new art of living begins.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/EN-David-Dowlut/The-Edge/refs/heads/main/28489.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/EN-David-Dowlut/The-Edge/refs/heads/main/Screenshot_20260615_123822_Gallery.jpg">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -128,9 +131,20 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 
 footer{text-align:center;padding:36px 20px 46px;border-top:1px solid rgba(58,127,191,.1);font-size:11px;letter-spacing:1px;color:rgba(122,144,184,.45)}
 footer strong{color:var(--gold);opacity:.75;font-weight:600}
+
+.lang-switch{position:fixed;top:20px;right:20px;z-index:100;display:flex;gap:8px;}
+.lang-btn{padding:6px 14px;border-radius:20px;font-size:11px;font-weight:600;letter-spacing:1px;text-decoration:none;transition:all .3s ease;}
+.lang-btn.active{background:var(--gold);color:#080808;}
+.lang-btn.inactive{background:rgba(255,255,255,.08);color:var(--muted);border:1px solid rgba(255,255,255,.15);}
+.lang-btn.inactive:hover{background:rgba(255,255,255,.15);color:var(--white);}
 </style>
 </head>
 <body>
+
+<div class="lang-switch">
+  <span class="lang-btn active">🇬🇧 EN</span>
+  <a href="index-fr.html" class="lang-btn inactive">🇫🇷 FR</a>
+</div>
 
 <section class="hero">
   <div class="stars" id="stars"></div>
